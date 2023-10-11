@@ -1,5 +1,5 @@
 @font-face {
-  font-family: Raleway;
+  font-family: 'Raleway';
   src:
     url(./Raleway-Regular.woff2) format('woff2'),
     url(./Raleway-Regular.woff) format('woff');
@@ -8,10 +8,23 @@
 }
 
 @font-face {
-  font-family: Raleway;
+  font-family: 'Raleway';
   src:
     url(./Raleway-Bold.woff2) format('woff2'),
     url(./Raleway-Bold.woff) format('woff');
   font-weight: bold;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: 'Istok Web';
+  src:
+    local('Istok'), local('Istok Regular'), local('istok'),
+    local('istokregular'), local('Istok Web'),
+    url(https://pictures.s3.yandex.net/fonts/istokregular.woff2) format('woff2'),
+    url(https://pictures.s3.yandex.net/fonts/istokregular.woff) format('woff'),
+    url(https://pictures.s3.yandex.net/fonts/istokregular.ttf)
+      format('truetype');
+  font-weight: normal;
   font-display: swap;
 }
