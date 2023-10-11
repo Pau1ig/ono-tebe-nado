@@ -170,11 +170,11 @@
 }
 
 .lots__heading {
-display: block;
-padding-left: 90px;
-color: #000;
-font-size: 40px;
-text-transform: uppercase;
+  display: block;
+  padding-left: 90px;
+  color: #000;
+  font-size: 40px;
+  text-transform: uppercase;
 }
 
 .lots__card-list {
@@ -353,6 +353,7 @@ text-transform: uppercase;
   width: 48px;
   height: 48px;
 }
+
 .social-icon-yt {
   background: url(/images/yt.svg);
 }
