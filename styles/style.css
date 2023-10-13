@@ -12,7 +12,7 @@
 .header__menu {
   display: flex;
   align-items: center;
-  justify-content:left;
+  justify-content: left;
 }
 
 .header__links-list {
@@ -73,7 +73,7 @@
   height: 100%;
   top: 0;
   left: 0;
-  background-color:black;
+  background-color: black;
   opacity: 0.6;
   position: absolute;
 }
@@ -90,7 +90,7 @@
   letter-spacing: 30px;
   position: relative;
   z-index: 1;
-  margin-bottom: 139px;
+  margin-bottom: 135px;
 }
 
 .aligned-text {
@@ -105,15 +105,14 @@
   display: block;
   text-align: center;
   position: relative;
-  padding-right: 10px;
-  line-height: 100%;
+  line-height: 140%;
 }
 
 .aligned-text_right {
   text-align: end;
   display: block;
   position: relative;
-  line-height: 100%;;
+  line-height: 100%;
 }
 
 .letter-spacing-extended {
@@ -179,7 +178,6 @@
 
 .lots__card-list {
   display: grid;
-  min-height: 477px;
   height: auto;
   grid-template-columns: 1fr 1fr 1fr;
   gap: 25px;
@@ -206,6 +204,7 @@
   height: 100%;
   flex-direction: column;
   padding: 50px 40px;
+  min-height: 450px;
 }
 
 .card__title {
@@ -223,22 +222,16 @@
 .card_type_film {
   background: url(../images/card-lot-01.jpg);
   background-size: cover;
-  background-repeat: no-repeat;
-  
 }
 
 .card_type_book {
   background: url(../images/card-lot-02.jpg);
   background-size: cover;
-  background-repeat: no-repeat;
-  
 }
 
 .card_type_picture {
   background: url(../images/card-lot-03.jpg);
   background-size: cover;
-  background-repeat: no-repeat;
-  
 }
 
 .lots__look-more-link {
@@ -268,7 +261,6 @@
   width: 100%;
   padding: 0 50px 0 145px;
   gap: 120px;
-
 }
 
 .about__logo-item {
@@ -315,18 +307,6 @@
   align-self: flex-end;
 }
 
-.footer__address {
-  display: block;
-  font-style: normal;
-  font-size: 18px;
-  line-height: 24.3px;
-  width: auto;
-  position: relative;
-  white-space: inherit;
-  max-width: 240px;
-  align-self: center;
-}
-
 .footer__links-list {
   display: block;
   text-align: center;
@@ -353,7 +333,6 @@
 
 .social-list-item {
   display: flex;
-  height: 48px;
 }
 
 .social-link {
